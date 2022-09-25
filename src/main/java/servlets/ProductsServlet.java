@@ -17,7 +17,7 @@ import java.util.Random;
 @WebServlet(name = "productsServlet",urlPatterns = "/products")
 public class ProductsServlet extends HttpServlet {
     private static class Product {
-        private static Logger logger = LoggerFactory.getLogger(MainServlet.class);
+     
         private List<Product> productList = new ArrayList<>();
         private int id;
         private int coast;
